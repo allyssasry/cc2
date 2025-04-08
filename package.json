@@ -6,7 +6,6 @@
     "start": "node server.js",
     "test": "echo \"No test available\""
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
