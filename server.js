@@ -26,7 +26,7 @@ app.post('/form', (req, res) => {
     res.send(`Terima kasih, ${name}. Email Anda: ${email} telah disimpan.`);
 });
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server berjalan di http://localhost:${port}`);
 });
