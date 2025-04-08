@@ -1,6 +1,7 @@
 const express = require('express');
-const app = express();
 const bodyParser = require('body-parser');
+const app = express();
+const port = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -26,7 +27,6 @@ app.post('/form', (req, res) => {
     res.send(`Terima kasih, ${name}. Email Anda: ${email} telah disimpan.`);
 });
 
-const port = process.env.PORT || 5000;
 app.listen(port, () => {
     console.log(`Server berjalan di http://localhost:${port}`);
 });
