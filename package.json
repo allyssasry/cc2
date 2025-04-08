@@ -1,5 +1,5 @@
 {
-  "name": "cc2",
+  "name": "web",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mysql": "^2.18.1"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }
