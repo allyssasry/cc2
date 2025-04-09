@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
     res.send(`
-        <h1>Hello, Saya Allyssa</h1>
+        <h1>Hello, Kami Kelompok 4</h1>
         <button onclick="window.location.href='/form'">Pergi ke Form</button>
     `);
 });
